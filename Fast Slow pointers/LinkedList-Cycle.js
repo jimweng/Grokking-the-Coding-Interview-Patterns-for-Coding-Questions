@@ -37,3 +37,9 @@ class Node {
   
   head.next.next.next.next.next.next = head.next.next.next
   console.log(`LinkedList has cycle: ${has_cycle(head)}`)
+
+  /**
+   *  Learned:
+   *    1. find the length of linked list with a cycle.
+   *        - 確定有cycle之後，放著slow，然後繞一圈算長度
+   */
